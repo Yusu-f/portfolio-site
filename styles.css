@@ -2745,22 +2745,22 @@ a {
   background-image: url("https://assets-global.website-files.com/65dc9c1763541f4698ad35da/65dee3c8677f6aaaf9581140_Screenshot%202024-02-28%20at%208.41.40%E2%80%AFAM.png");
   background-position: center;
   background-repeat: repeat;
-  background-size: contain;
+  background-size: 90% 100%;
   background-attachment: fixed;
+  /* transform: translate(50px, 0px); */
   border-bottom-right-radius: 8px;
   border-bottom-left-radius: 8px;
 }
 
 @media screen and (max-width: 600px) {
   .dribbble-image {
-    /* Add your mobile-specific styles here */
     background-image: url("./assets/imgs/Screenshot\ 2024-02-28\ at\ 8.43.17\ AM.png");
     background-position: left;
     background-repeat: repeat;
     background-size: cover;
-    /* background-attachment: fixed;
+    /* background-attachment: fixed; */
     border-bottom-right-radius: 8px;
-    border-bottom-left-radius: 8px; */
+    border-bottom-left-radius: 8px;
   }
 }
 
